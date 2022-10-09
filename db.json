@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "juan",
+      "lastName": "Diaz",
+      "email": "jdiaz@hotmail.com",
+      "phoneNumber": "8095555555",
+      "idNumber": "40255555555",
+      "birthDate": "1990-01-01",
+      "address": {
+        "street": "27 de Febrero",
+        "number": "123",
+        "city": "santo domingo",
+        "state": "SD",
+        "zip": "12202"
+      },
+      "createdAt": "2022-10-09T15:46:35.052Z",
+      "updatedAt": "2022-10-09T15:46:35.052Z"
+    },
+    {
+      "id": 2,
+      "firstName": "Maria",
+      "lastName": "Dominguez",
+      "email": "mdominguez@hotmail.com",
+      "phoneNumber": "8097777777",
+      "idNumber": "40277777777",
+      "birthDate": "1995-04-02",
+      "address": {
+        "street": "30 de Marzo",
+        "number": "5",
+        "city": "santo domingo",
+        "state": "SD",
+        "zip": "12202"
+      },
+      "createdAt": "2022-10-09T15:46:35.052Z",
+      "updatedAt": "2022-10-09T15:46:35.052Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "accountNumber": "123456789",
+      "accountType": 2,
+      "balance": 1000,
+      "userId": 1,
+      "status": 1,
+      "createdAt": "2022-10-09T15:46:35.052Z",
+      "updatedAt": "2022-10-09T15:46:35.052Z"
+    },
+    {
+      "id": 2,
+      "accountNumber": "987654321",
+      "accountType": 1,
+      "balance": 1000,
+      "userId": 2,
+      "status": 1,
+      "createdAt": "2022-10-09T15:46:35.052Z",
+      "updatedAt": "2022-10-09T15:46:35.052Z"
+    }
+  ],
+  "creditCards": [
+    {
+      "id": 1,
+      "cardNumber": "123456789",
+      "cardType": 1,
+      "ammount": 10000,
+      "balance": 800,
+      "userId": 1,
+      "status": 1,
+      "createdAt": "2022-10-09T15:46:35.052Z",
+      "updatedAt": "2022-10-09T15:46:35.052Z"
+    },
+    {
+      "id": 2,
+      "cardNumber": "123456789",
+      "cardType": 1,
+      "ammount": 1000,
+      "balance": 1000,
+      "userId": 1,
+      "status": 2,
+      "createdAt": "2022-10-09T15:46:35.052Z",
+      "updatedAt": "2022-10-09T15:46:35.052Z"
+    },
+    {
+      "id": 3,
+      "cardNumber": "123456789",
+      "cardType": 2,
+      "ammount": 15000,
+      "balance": 10000,
+      "userId": 2,
+      "status": 1,
+      "createdAt": "2022-10-09T15:46:35.052Z",
+      "updatedAt": "2022-10-09T15:46:35.052Z"
+    }
+  ],
+  "enums": {
+    "accountType": [
+      {
+        "id": 1,
+        "name": "Checking"
+      },
+      {
+        "id": 2,
+        "name": "Savings"
+      }
+    ],
+    "status": [
+      {
+        "id": 1,
+        "name": "Active"
+      },
+      {
+        "id": 2,
+        "name": "Inactive"
+      }
+    ],
+    "cardType": [
+      {
+        "id": 1,
+        "name": "Visa"
+      },
+      {
+        "id": 2,
+        "name": "MasterCard"
+      }
+    ]
+  }
+}
