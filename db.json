@@ -15,6 +15,7 @@
         "state": "SD",
         "zip": "12202"
       },
+      "status": 1,
       "createdAt": "2022-10-09T15:46:35.052Z",
       "updatedAt": "2022-10-09T15:46:35.052Z"
     },
@@ -33,6 +34,7 @@
         "state": "SD",
         "zip": "12202"
       },
+      "status": 1,
       "createdAt": "2022-10-09T15:46:35.052Z",
       "updatedAt": "2022-10-09T15:46:35.052Z"
     }
@@ -93,37 +95,5 @@
       "createdAt": "2022-10-09T15:46:35.052Z",
       "updatedAt": "2022-10-09T15:46:35.052Z"
     }
-  ],
-  "enums": {
-    "accountType": [
-      {
-        "id": 1,
-        "name": "Checking"
-      },
-      {
-        "id": 2,
-        "name": "Savings"
-      }
-    ],
-    "status": [
-      {
-        "id": 1,
-        "name": "Active"
-      },
-      {
-        "id": 2,
-        "name": "Inactive"
-      }
-    ],
-    "cardType": [
-      {
-        "id": 1,
-        "name": "Visa"
-      },
-      {
-        "id": 2,
-        "name": "MasterCard"
-      }
-    ]
-  }
+  ]
 }

@@ -1,4 +1,5 @@
 import * as yup from 'yup';
+import { userStatus } from '../enums/index.enum';
 
 export const userSchema = yup.object().shape({
     firstName: yup.string().required(),
@@ -14,4 +15,5 @@ export const userSchema = yup.object().shape({
         zip: yup.string().required().matches(/^[0-9]+$/, 'Zip code must be only digits').length(5, 'Zip code must be 5 digits'),
         number: yup.string().required()
     }),
+    status: yup.number().required().oneOf([userStatus.ACTIVE, userStatus.INACTIVE, userStatus.PENDING, userStatus.BLOCKED])
 });

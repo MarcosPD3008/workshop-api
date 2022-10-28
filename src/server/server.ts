@@ -32,7 +32,7 @@ class Server{
     }
 
     private validate = (req:Request, res:Response, next:NextFunction) => {
-        if(['POST', 'PUT']){
+        if(['POST', 'PUT'].includes(req.method)){
             const path = req.path.split('/')[1];
             const schema = schemas[path];
 
