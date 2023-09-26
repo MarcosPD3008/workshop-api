@@ -1,6 +1,6 @@
 import JsonServer from 'json-server';
 import { Request, Response, NextFunction } from "express";
-import { userSchema } from '../schemas/index.schema';
+import { dictionaryItemSchema, dictionarySchema, userSchema, validationSchema } from '../schemas/index.schema';
 
 class Server{
     public start(){
@@ -52,6 +52,9 @@ class Server{
 
 const schemas = {
     "users": userSchema,
+    "validations": validationSchema,
+    "dictionaries": dictionarySchema,
+    "dictionaryItems": dictionaryItemSchema
 } as any;
 
 export default Server;
