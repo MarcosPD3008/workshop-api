@@ -63823,6 +63823,13 @@
       "createdAt": 1695825648523,
       "updatedAt": 1695825648523,
       "id": 10
+    },
+    {
+      "Name": "incidents",
+      "description": "incidents",
+      "createdAt": 1695825648523,
+      "updatedAt": 1695825648523,
+      "id": 11
     }
   ],
   "dictionaryItems": [
@@ -63943,6 +63950,22 @@
       "createdAt": 1695825899641,
       "updatedAt": 1695825899641,
       "id": 14
+    },
+    {
+      "Name": "Aire Acondicionado",
+      "value": 11,
+      "dictionaryId": 11,
+      "createdAt": 1695825899641,
+      "updatedAt": 1695825899641,
+      "id": 15
+    },
+    {
+      "Name": "Computadora",
+      "value": 11,
+      "dictionaryId": 11,
+      "createdAt": 1695825899641,
+      "updatedAt": 1695825899641,
+      "id": 15
     }
   ]
 }

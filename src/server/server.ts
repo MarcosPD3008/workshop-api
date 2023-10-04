@@ -1,10 +1,12 @@
 import JsonServer from 'json-server';
 import { Request, Response, NextFunction } from "express";
 import { dictionaryItemSchema, dictionarySchema, userSchema, validationSchema } from '../schemas/index.schema';
+import { RegisterRoutes } from '../helpers/routes';
+import { validateCedula } from '../helpers/idCard';
 
 class Server{
     public start(){
-        const server = JsonServer.create();
+        let server = JsonServer.create();
         const router = JsonServer.router('db.json');
         const middlewares = JsonServer.defaults();
         
@@ -12,8 +14,10 @@ class Server{
         server.use(JsonServer.bodyParser)
         server.use(this.validate);
         server.use(this.timestamp);
-        server.use(router);
-
+        
+        RegisterRoutes(server);
+        
+        server.use(router);  
         server.listen(3000, () => {
             console.log('JSON Server is running at port ' + 3000);
         });
