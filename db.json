@@ -63775,6 +63775,54 @@
       "createdAt": 1695745752416,
       "updatedAt": 1695745752416,
       "id": 1
+    },
+    {
+      "name": "documentTypes",
+      "description": "dominican document types",
+      "createdAt": 1695751041120,
+      "updatedAt": 1695751041120,
+      "id": 2
+    },
+    {
+      "Name": "distributor",
+      "description": "Local or Foreign Distributor",
+      "createdAt": 1695819360741,
+      "updatedAt": 1695819360741,
+      "id": 5
+    },
+    {
+      "Name": "neighborhood",
+      "description": "neighborhood",
+      "updatedAt": 1695824364402,
+      "id": 6
+    },
+    {
+      "Name": "street",
+      "description": "street",
+      "createdAt": 1695824528236,
+      "updatedAt": 1695824528236,
+      "id": 7
+    },
+    {
+      "Name": "partnerType",
+      "description": "partnerType",
+      "createdAt": 1695825114789,
+      "updatedAt": 1695825114789,
+      "id": 8
+    },
+    {
+      "Name": "zone",
+      "description": "zone",
+      "createdAt": 1695825364641,
+      "updatedAt": 1695825364641,
+      "id": 9
+    },
+    {
+      "Name": "distributionType",
+      "description": "distributionType",
+      "createdAt": 1695825648523,
+      "updatedAt": 1695825648523,
+      "id": 10
     }
   ],
   "dictionaryItems": [
@@ -63787,12 +63835,114 @@
       "id": 1
     },
     {
-      "name": "test",
+      "name": "Cedula",
       "value": 1,
       "dictionaryId": 2,
       "createdAt": 1695747097007,
       "updatedAt": 1695747097007,
       "id": 2
+    },
+    {
+      "name": "RNC",
+      "value": 2,
+      "dictionaryId": 2,
+      "createdAt": 1695747097007,
+      "updatedAt": 1695747097007,
+      "id": 3
+    },
+    {
+      "Name": "Local",
+      "value": 5,
+      "dictionaryId": 5,
+      "createdAt": 1695820062902,
+      "updatedAt": 1695820062902,
+      "id": 3
+    },
+    {
+      "Name": "Externo",
+      "value": 5,
+      "dictionaryId": 5,
+      "createdAt": 1695820314684,
+      "updatedAt": 1695820314684,
+      "id": 4
+    },
+    {
+      "Name": "30 de mayo",
+      "value": 6,
+      "dictionaryId": 6,
+      "createdAt": 1695823830032,
+      "updatedAt": 1695823830032,
+      "id": 5
+    },
+    {
+      "Name": "Altos de Arroyo Hondo",
+      "value": 6,
+      "dictionaryId": 6,
+      "createdAt": 1695823842324,
+      "updatedAt": 1695823842324,
+      "id": 6
+    },
+    {
+      "Name": "Colon",
+      "value": 7,
+      "dictionaryId": 7,
+      "updatedAt": 1695824692903,
+      "id": 7
+    },
+    {
+      "Name": "Socio contratista",
+      "value": 11,
+      "dictionaryId": 8,
+      "updatedAt": 1695827814594,
+      "id": 8
+    },
+    {
+      "Name": "El Cedro",
+      "value": 7,
+      "dictionaryId": 7,
+      "createdAt": 1695824732325,
+      "updatedAt": 1695824732325,
+      "id": 9
+    },
+    {
+      "Name": "Socio Fundador",
+      "value": 8,
+      "dictionaryId": 8,
+      "createdAt": 1695825146384,
+      "updatedAt": 1695825146384,
+      "id": 10
+    },
+    {
+      "Name": "Maria Trinidad Sánchez",
+      "value": 9,
+      "dictionaryId": 9,
+      "createdAt": 1695825399696,
+      "updatedAt": 1695825399696,
+      "id": 11
+    },
+    {
+      "Name": "Salcedo",
+      "value": 9,
+      "dictionaryId": 9,
+      "createdAt": 1695825405178,
+      "updatedAt": 1695825405178,
+      "id": 12
+    },
+    {
+      "Name": "La Vega",
+      "value": 9,
+      "dictionaryId": 9,
+      "createdAt": 1695825415552,
+      "updatedAt": 1695825415552,
+      "id": 13
+    },
+    {
+      "Name": "direct",
+      "value": 10,
+      "dictionaryId": 10,
+      "createdAt": 1695825899641,
+      "updatedAt": 1695825899641,
+      "id": 14
     }
   ]
 }
