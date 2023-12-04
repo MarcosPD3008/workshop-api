@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "firstName": "juan",
-      "lastName": "Diaz",
+      "firstname": "juan",
+      "lastname": "Diaz",
       "email": "jdiaz@hotmail.com",
       "phoneNumber": "8095555555",
       "idNumber": "40255555555",
@@ -63767,7 +63767,6 @@
       "sector": "El Vergel"
     }
   ],
-  "validations": [],
   "dictionaries": [
     {
       "name": "test",
@@ -63784,52 +63783,318 @@
       "id": 2
     },
     {
-      "Name": "distributor",
+      "name": "distributor",
       "description": "Local or Foreign Distributor",
       "createdAt": 1695819360741,
       "updatedAt": 1695819360741,
       "id": 5
     },
     {
-      "Name": "neighborhood",
+      "name": "neighborhood",
       "description": "neighborhood",
       "updatedAt": 1695824364402,
       "id": 6
     },
     {
-      "Name": "street",
+      "name": "street",
       "description": "street",
       "createdAt": 1695824528236,
       "updatedAt": 1695824528236,
       "id": 7
     },
     {
-      "Name": "partnerType",
+      "name": "partnerType",
       "description": "partnerType",
       "createdAt": 1695825114789,
       "updatedAt": 1695825114789,
       "id": 8
     },
     {
-      "Name": "zone",
+      "name": "zone",
       "description": "zone",
       "createdAt": 1695825364641,
       "updatedAt": 1695825364641,
       "id": 9
     },
     {
-      "Name": "distributionType",
+      "name": "distributionType",
       "description": "distributionType",
       "createdAt": 1695825648523,
       "updatedAt": 1695825648523,
       "id": 10
     },
     {
-      "Name": "incidents",
+      "name": "incidents",
       "description": "incidents",
       "createdAt": 1695825648523,
       "updatedAt": 1695825648523,
       "id": 11
+    },
+    {
+      "name": "pointType",
+      "description": "tipo de punto",
+      "id": 12,
+      "createdAt": 1699990782126,
+      "updatedAt": 1699990782126
+    },
+    {
+      "name": "openPoint",
+      "description": "punto abierto",
+      "id": 13,
+      "createdAt": 1699991716974,
+      "updatedAt": 1699991716974
+    },
+    {
+      "name": "lettering",
+      "description": "letreria",
+      "id": 14,
+      "createdAt": 1699991946129,
+      "updatedAt": 1699991946129
+    },
+    {
+      "name": "exteriorPainting",
+      "description": "Pintura Exterior",
+      "id": 15,
+      "createdAt": 1699992087612,
+      "updatedAt": 1699992087612
+    },
+    {
+      "name": "interiorPainting",
+      "description": "Pintura Interior",
+      "id": 16,
+      "createdAt": 1699992191942,
+      "updatedAt": 1699992191942
+    },
+    {
+      "name": "furniture",
+      "description": "Mobiliario",
+      "id": 17,
+      "createdAt": 1699992353606,
+      "updatedAt": 1699992353606
+    },
+    {
+      "name": "showcaseLights",
+      "description": "Luces vitrina",
+      "id": 18,
+      "createdAt": 1699992580784,
+      "updatedAt": 1699992580784
+    },
+    {
+      "name": "ceilingLights",
+      "description": "Luces de techo",
+      "id": 19,
+      "createdAt": 1699992674663,
+      "updatedAt": 1699992674663
+    },
+    {
+      "name": "airAconditioning",
+      "description": "Aire acondicionado",
+      "id": 20,
+      "createdAt": 1699992874804,
+      "updatedAt": 1699992874804
+    },
+    {
+      "name": "investor",
+      "description": "Inversor",
+      "id": 21,
+      "createdAt": 1699993065259,
+      "updatedAt": 1699993065259
+    },
+    {
+      "name": "ExperiencesZoneGroups",
+      "description": "Equipos Zona Experiencias",
+      "id": 22,
+      "createdAt": 1699993228103,
+      "updatedAt": 1699993228103
+    },
+    {
+      "name": "assignedObjective",
+      "description": "Objetivo Asignado",
+      "id": 23,
+      "createdAt": 1699993429348,
+      "updatedAt": 1699993429348
+    },
+    {
+      "name": "inventory",
+      "description": "Inventario",
+      "id": 24,
+      "createdAt": 1699993494103,
+      "updatedAt": 1699993494103
+    },
+    {
+      "name": "systems",
+      "description": "Sistemas",
+      "id": 25,
+      "createdAt": 1699993766674,
+      "updatedAt": 1699993766674
+    },
+    {
+      "name": "verifone",
+      "description": "verifone",
+      "id": 26,
+      "createdAt": 1699993887244,
+      "updatedAt": 1699993887244
+    },
+    {
+      "name": "billCollection",
+      "description": "Cobro de facturas",
+      "id": 27,
+      "createdAt": 1699994015143,
+      "updatedAt": 1699994015143
+    },
+    {
+      "name": "copier",
+      "description": "Copiadora",
+      "id": 28,
+      "createdAt": 1699994162230,
+      "updatedAt": 1699994162230
+    },
+    {
+      "name": "TV",
+      "description": "TV",
+      "id": 29,
+      "createdAt": 1699994510784,
+      "updatedAt": 1699994510784
+    },
+    {
+      "name": "ClaroTVInstalled",
+      "description": "Claro TV Instalado",
+      "id": 30,
+      "createdAt": 1699994665278,
+      "updatedAt": 1699994665278
+    },
+    {
+      "name": "HdChannels",
+      "description": "CanalesHd",
+      "id": 31,
+      "createdAt": 1699995207596,
+      "updatedAt": 1699995207596
+    },
+    {
+      "name": "salePointClaroVideo",
+      "description": "Punto de venta Claro video",
+      "id": 32,
+      "createdAt": 1700003209843,
+      "updatedAt": 1700003209843
+    },
+    {
+      "name": "portaPrices",
+      "description": "Porta Precios",
+      "id": 33,
+      "createdAt": 1700003449684,
+      "updatedAt": 1700003449684
+    },
+    {
+      "name": "portaPhones",
+      "description": "Porta celulares",
+      "id": 34,
+      "createdAt": 1700003535059,
+      "updatedAt": 1700003535059
+    },
+    {
+      "name": "wallPop",
+      "description": "POP de pared",
+      "id": 35,
+      "createdAt": 1700003680590,
+      "updatedAt": 1700003680590
+    },
+    {
+      "name": "flyers",
+      "description": "Volantes de diferentes productos",
+      "id": 36,
+      "createdAt": 1700003871720,
+      "updatedAt": 1700003871720
+    },
+    {
+      "name": "hygienePDV",
+      "description": "Higiene Organizacion PDV",
+      "id": 37,
+      "createdAt": 1700004137193,
+      "updatedAt": 1700004137193
+    },
+    {
+      "name": "employeeQuantityPDV",
+      "description": "Cantidad de Empleados en el PVD",
+      "id": 38,
+      "createdAt": 1700004329084,
+      "updatedAt": 1700004329084
+    },
+    {
+      "name": "employeeData",
+      "description": "Datos del empleado",
+      "id": 39,
+      "createdAt": 1700004513481,
+      "updatedAt": 1700004513481
+    },
+    {
+      "name": "documentType",
+      "description": "Tipo de documento",
+      "id": 40,
+      "createdAt": 1700005243393,
+      "updatedAt": 1700005243393
+    },
+    {
+      "name": "uniform",
+      "description": "uniforme",
+      "id": 41,
+      "createdAt": 1700005555014,
+      "updatedAt": 1700005555014
+    },
+    {
+      "name": "generalImage",
+      "description": "Imagen General Correcta",
+      "id": 42,
+      "createdAt": 1700005634281,
+      "updatedAt": 1700005634281
+    },
+    {
+      "name": "welcomeGreeting",
+      "description": "Saludo de Bienvenida",
+      "id": 43,
+      "createdAt": 1700005714383,
+      "updatedAt": 1700005714383
+    },
+    {
+      "name": "fixedVariableSalary",
+      "description": "Salario fijo y variable",
+      "id": 44,
+      "createdAt": 1700005827096,
+      "updatedAt": 1700005827096
+    },
+    {
+      "name": "farewell",
+      "description": "Despedida",
+      "id": 45,
+      "createdAt": 1700005972693,
+      "updatedAt": 1700005972693
+    },
+    {
+      "name": "knowledgeOffers",
+      "description": "Conocimiento de ofertas",
+      "id": 46,
+      "createdAt": 1700006098490,
+      "updatedAt": 1700006098490
+    },
+    {
+      "name": "mobileOffers",
+      "description": "Conoce ofertas móviles",
+      "id": 47,
+      "createdAt": 1700006178568,
+      "updatedAt": 1700006178568
+    },
+    {
+      "name": "servicePurpose",
+      "description": "Conoce y modela proposito de servicio",
+      "id": 48,
+      "createdAt": 1700006339885,
+      "updatedAt": 1700006339885
+    },
+    {
+      "name": "recomendedPointOfSale",
+      "description": "Punto de venta recomendad",
+      "id": 49,
+      "createdAt": 1700006499358,
+      "updatedAt": 1700006499358
     }
   ],
   "dictionaryItems": [
@@ -63858,7 +64123,7 @@
       "id": 3
     },
     {
-      "Name": "Local",
+      "name": "Local",
       "value": 5,
       "dictionaryId": 5,
       "createdAt": 1695820062902,
@@ -63866,7 +64131,7 @@
       "id": 3
     },
     {
-      "Name": "Externo",
+      "name": "Externo",
       "value": 5,
       "dictionaryId": 5,
       "createdAt": 1695820314684,
@@ -63874,7 +64139,7 @@
       "id": 4
     },
     {
-      "Name": "30 de mayo",
+      "name": "30 de mayo",
       "value": 6,
       "dictionaryId": 6,
       "createdAt": 1695823830032,
@@ -63882,7 +64147,7 @@
       "id": 5
     },
     {
-      "Name": "Altos de Arroyo Hondo",
+      "name": "Altos de Arroyo Hondo",
       "value": 6,
       "dictionaryId": 6,
       "createdAt": 1695823842324,
@@ -63890,21 +64155,21 @@
       "id": 6
     },
     {
-      "Name": "Colon",
+      "name": "Colon",
       "value": 7,
       "dictionaryId": 7,
       "updatedAt": 1695824692903,
       "id": 7
     },
     {
-      "Name": "Socio contratista",
+      "name": "Socio contratista",
       "value": 11,
       "dictionaryId": 8,
       "updatedAt": 1695827814594,
       "id": 8
     },
     {
-      "Name": "El Cedro",
+      "name": "El Cedro",
       "value": 7,
       "dictionaryId": 7,
       "createdAt": 1695824732325,
@@ -63912,7 +64177,7 @@
       "id": 9
     },
     {
-      "Name": "Socio Fundador",
+      "name": "Socio Fundador",
       "value": 8,
       "dictionaryId": 8,
       "createdAt": 1695825146384,
@@ -63920,7 +64185,7 @@
       "id": 10
     },
     {
-      "Name": "Maria Trinidad Sánchez",
+      "name": "Maria Trinidad Sánchez",
       "value": 9,
       "dictionaryId": 9,
       "createdAt": 1695825399696,
@@ -63928,7 +64193,7 @@
       "id": 11
     },
     {
-      "Name": "Salcedo",
+      "name": "Salcedo",
       "value": 9,
       "dictionaryId": 9,
       "createdAt": 1695825405178,
@@ -63936,7 +64201,7 @@
       "id": 12
     },
     {
-      "Name": "La Vega",
+      "name": "La Vega",
       "value": 9,
       "dictionaryId": 9,
       "createdAt": 1695825415552,
@@ -63944,7 +64209,7 @@
       "id": 13
     },
     {
-      "Name": "direct",
+      "name": "direct",
       "value": 10,
       "dictionaryId": 10,
       "createdAt": 1695825899641,
@@ -63952,7 +64217,7 @@
       "id": 14
     },
     {
-      "Name": "Aire Acondicionado",
+      "name": "Aire Acondicionado",
       "value": 11,
       "dictionaryId": 11,
       "createdAt": 1695825899641,
@@ -63960,12 +64225,1240 @@
       "id": 15
     },
     {
-      "Name": "Computadora",
+      "name": "Computadora",
       "value": 11,
       "dictionaryId": 11,
       "createdAt": 1695825899641,
       "updatedAt": 1695825899641,
       "id": 15
+    },
+    {
+      "name": "AAA",
+      "value": 12,
+      "dictionaryId": 12,
+      "id": 16,
+      "createdAt": 1699991199053,
+      "updatedAt": 1699991199053
+    },
+    {
+      "name": "AAA+",
+      "value": 12,
+      "dictionaryId": 12,
+      "id": 17,
+      "createdAt": 1699991246397,
+      "updatedAt": 1699991246397
+    },
+    {
+      "name": "AGENCIA",
+      "value": 12,
+      "dictionaryId": 12,
+      "id": 18,
+      "createdAt": 1699991263009,
+      "updatedAt": 1699991263009
+    },
+    {
+      "name": "BBB",
+      "value": 12,
+      "dictionaryId": 12,
+      "id": 19,
+      "createdAt": 1699991275274,
+      "updatedAt": 1699991275274
+    },
+    {
+      "name": "CAMBACEO",
+      "value": 12,
+      "dictionaryId": 12,
+      "id": 20,
+      "createdAt": 1699991294452,
+      "updatedAt": 1699991294452
+    },
+    {
+      "name": "Cerrada dentro del horario",
+      "value": 13,
+      "dictionaryId": 13,
+      "id": 21,
+      "createdAt": 1699991771903,
+      "updatedAt": 1699991771903
+    },
+    {
+      "name": "Cerrada fuera de horario",
+      "value": 13,
+      "dictionaryId": 13,
+      "id": 22,
+      "createdAt": 1699991807151,
+      "updatedAt": 1699991807151
+    },
+    {
+      "name": "Sí",
+      "value": 13,
+      "dictionaryId": 13,
+      "id": 23,
+      "createdAt": 1699991842226,
+      "updatedAt": 1699991842226
+    },
+    {
+      "name": "No aplica letrero",
+      "value": 14,
+      "dictionaryId": 14,
+      "id": 24,
+      "createdAt": 1699991975774,
+      "updatedAt": 1699991975774
+    },
+    {
+      "name": "No tiene",
+      "value": 14,
+      "dictionaryId": 14,
+      "id": 25,
+      "createdAt": 1699991988429,
+      "updatedAt": 1699991988429
+    },
+    {
+      "name": "Requiere mantenimiento de Claro",
+      "value": 14,
+      "dictionaryId": 14,
+      "id": 26,
+      "createdAt": 1699992006787,
+      "updatedAt": 1699992006787
+    },
+    {
+      "name": "Requiere mantenimiento de Soporte Comercial",
+      "value": 14,
+      "dictionaryId": 14,
+      "id": 27,
+      "createdAt": 1699992034463,
+      "updatedAt": 1699992034463
+    },
+    {
+      "name": "Si tiene Condición Óptima",
+      "value": 14,
+      "dictionaryId": 14,
+      "id": 28,
+      "createdAt": 1699992067038,
+      "updatedAt": 1699992067038
+    },
+    {
+      "name": "No aplica",
+      "value": 15,
+      "dictionaryId": 15,
+      "id": 29,
+      "createdAt": 1699992114747,
+      "updatedAt": 1699992114747
+    },
+    {
+      "name": "No funciona - Claro",
+      "value": 30,
+      "dictionaryId": 30,
+      "id": 30,
+      "updatedAt": 1699994746134
+    },
+    {
+      "name": "Sí",
+      "value": 15,
+      "dictionaryId": 15,
+      "id": 31,
+      "createdAt": 1699992137065,
+      "updatedAt": 1699992137065
+    },
+    {
+      "name": "No aplica",
+      "value": 16,
+      "dictionaryId": 16,
+      "id": 32,
+      "createdAt": 1699992196768,
+      "updatedAt": 1699992196768
+    },
+    {
+      "name": "No",
+      "value": 16,
+      "dictionaryId": 16,
+      "id": 33,
+      "createdAt": 1699992218792,
+      "updatedAt": 1699992218792
+    },
+    {
+      "name": "Requiere socio",
+      "value": 16,
+      "dictionaryId": 16,
+      "id": 34,
+      "createdAt": 1699992229676,
+      "updatedAt": 1699992229676
+    },
+    {
+      "name": "Sí",
+      "value": 16,
+      "dictionaryId": 16,
+      "id": 35,
+      "createdAt": 1699992244483,
+      "updatedAt": 1699992244483
+    },
+    {
+      "name": "No aplica",
+      "value": 17,
+      "dictionaryId": 17,
+      "id": 36,
+      "createdAt": 1699992374058,
+      "updatedAt": 1699992374058
+    },
+    {
+      "name": "No",
+      "value": 17,
+      "dictionaryId": 17,
+      "id": 37,
+      "createdAt": 1699992405630,
+      "updatedAt": 1699992405630
+    },
+    {
+      "name": "Requiere actualización",
+      "value": 17,
+      "dictionaryId": 17,
+      "id": 38,
+      "createdAt": 1699992484512,
+      "updatedAt": 1699992484512
+    },
+    {
+      "name": "Requiere mantenimiento Claro",
+      "value": 17,
+      "dictionaryId": 17,
+      "id": 39,
+      "createdAt": 1699992495501,
+      "updatedAt": 1699992495501
+    },
+    {
+      "name": "Requiere mantenimiento socio",
+      "value": 17,
+      "dictionaryId": 17,
+      "id": 40,
+      "createdAt": 1699992507031,
+      "updatedAt": 1699992507031
+    },
+    {
+      "name": "Sí",
+      "value": 17,
+      "dictionaryId": 17,
+      "id": 41,
+      "createdAt": 1699992524481,
+      "updatedAt": 1699992524481
+    },
+    {
+      "name": "No aplica",
+      "value": 18,
+      "dictionaryId": 18,
+      "id": 42,
+      "createdAt": 1699992591406,
+      "updatedAt": 1699992591406
+    },
+    {
+      "name": "No",
+      "value": 18,
+      "dictionaryId": 18,
+      "id": 43,
+      "createdAt": 1699992609577,
+      "updatedAt": 1699992609577
+    },
+    {
+      "name": "Sí",
+      "value": 18,
+      "dictionaryId": 18,
+      "id": 44,
+      "createdAt": 1699992635788,
+      "updatedAt": 1699992635788
+    },
+    {
+      "name": "No aplica",
+      "value": 19,
+      "dictionaryId": 19,
+      "id": 45,
+      "createdAt": 1699992765657,
+      "updatedAt": 1699992765657
+    },
+    {
+      "name": "No funciona",
+      "value": 19,
+      "dictionaryId": 19,
+      "id": 46,
+      "createdAt": 1699992780112,
+      "updatedAt": 1699992780112
+    },
+    {
+      "name": "Funciona",
+      "value": 19,
+      "dictionaryId": 19,
+      "id": 47,
+      "createdAt": 1699992808571,
+      "updatedAt": 1699992808571
+    },
+    {
+      "name": "No aplica",
+      "value": 20,
+      "dictionaryId": 20,
+      "id": 48,
+      "createdAt": 1699992961972,
+      "updatedAt": 1699992961972
+    },
+    {
+      "name": "No tiene",
+      "value": 20,
+      "dictionaryId": 20,
+      "id": 49,
+      "createdAt": 1699992971067,
+      "updatedAt": 1699992971067
+    },
+    {
+      "name": "Si tiene, no funciona",
+      "value": 20,
+      "dictionaryId": 20,
+      "id": 50,
+      "createdAt": 1699992979502,
+      "updatedAt": 1699992979502
+    },
+    {
+      "name": "Si tiene, funciona",
+      "value": 20,
+      "dictionaryId": 20,
+      "id": 51,
+      "createdAt": 1699993000704,
+      "updatedAt": 1699993000704
+    },
+    {
+      "name": "No aplica",
+      "value": 21,
+      "dictionaryId": 21,
+      "id": 52,
+      "createdAt": 1699993069358,
+      "updatedAt": 1699993069358
+    },
+    {
+      "name": "No tiene",
+      "value": 21,
+      "dictionaryId": 21,
+      "id": 53,
+      "createdAt": 1699993083812,
+      "updatedAt": 1699993083812
+    },
+    {
+      "name": "Requiere mantenimiento",
+      "value": 21,
+      "dictionaryId": 21,
+      "id": 54,
+      "createdAt": 1699993174032,
+      "updatedAt": 1699993174032
+    },
+    {
+      "name": "Requiere mantenimiento de socio",
+      "value": 21,
+      "dictionaryId": 21,
+      "id": 55,
+      "createdAt": 1699993184706,
+      "updatedAt": 1699993184706
+    },
+    {
+      "name": "Funciona",
+      "value": 21,
+      "dictionaryId": 21,
+      "id": 56,
+      "createdAt": 1699993197367,
+      "updatedAt": 1699993197367
+    },
+    {
+      "name": "No aplica",
+      "value": 22,
+      "dictionaryId": 22,
+      "id": 57,
+      "createdAt": 1699993303579,
+      "updatedAt": 1699993303579
+    },
+    {
+      "name": "No",
+      "value": 22,
+      "dictionaryId": 22,
+      "id": 58,
+      "createdAt": 1699993311822,
+      "updatedAt": 1699993311822
+    },
+    {
+      "name": "Dispositivo de seguridad no funciona",
+      "value": 22,
+      "dictionaryId": 22,
+      "id": 59,
+      "createdAt": 1699993345713,
+      "updatedAt": 1699993345713
+    },
+    {
+      "name": "Equipos desactualizados",
+      "value": 22,
+      "dictionaryId": 22,
+      "id": 60,
+      "createdAt": 1699993361426,
+      "updatedAt": 1699993361426
+    },
+    {
+      "name": "Faltan equipos",
+      "value": 22,
+      "dictionaryId": 22,
+      "id": 61,
+      "createdAt": 1699993369308,
+      "updatedAt": 1699993369308
+    },
+    {
+      "name": "Requiere mantenimiento",
+      "value": 22,
+      "dictionaryId": 22,
+      "id": 62,
+      "createdAt": 1699993381079,
+      "updatedAt": 1699993381079
+    },
+    {
+      "name": "Sí",
+      "value": 22,
+      "dictionaryId": 22,
+      "id": 63,
+      "createdAt": 1699993399032,
+      "updatedAt": 1699993399032
+    },
+    {
+      "name": "No",
+      "value": 23,
+      "dictionaryId": 23,
+      "id": 64,
+      "createdAt": 1699993452933,
+      "updatedAt": 1699993452933
+    },
+    {
+      "name": "Sí",
+      "value": 23,
+      "dictionaryId": 23,
+      "id": 65,
+      "createdAt": 1699993464468,
+      "updatedAt": 1699993464468
+    },
+    {
+      "name": "No",
+      "value": 24,
+      "dictionaryId": 24,
+      "id": 66,
+      "createdAt": 1699993506381,
+      "updatedAt": 1699993506381
+    },
+    {
+      "name": "Sí",
+      "value": 24,
+      "dictionaryId": 24,
+      "id": 67,
+      "createdAt": 1699993517632,
+      "updatedAt": 1699993517632
+    },
+    {
+      "name": "No tiene VDI",
+      "value": 25,
+      "dictionaryId": 25,
+      "id": 68,
+      "createdAt": 1699993779533,
+      "updatedAt": 1699993779533
+    },
+    {
+      "name": "No tiene router",
+      "value": 25,
+      "dictionaryId": 25,
+      "id": 69,
+      "createdAt": 1699993788370,
+      "updatedAt": 1699993788370
+    },
+    {
+      "name": "No tiene facilidades",
+      "value": 25,
+      "dictionaryId": 25,
+      "id": 70,
+      "createdAt": 1699993799391,
+      "updatedAt": 1699993799391
+    },
+    {
+      "name": "No tiene línea de datos",
+      "value": 25,
+      "dictionaryId": 25,
+      "id": 71,
+      "createdAt": 1699993813179,
+      "updatedAt": 1699993813179
+    },
+    {
+      "name": "No tiene acceso a sistemas transaccionales",
+      "value": 25,
+      "dictionaryId": 25,
+      "id": 72,
+      "createdAt": 1699993840113,
+      "updatedAt": 1699993840113
+    },
+    {
+      "name": "Si tiene",
+      "value": 25,
+      "dictionaryId": 25,
+      "id": 73,
+      "createdAt": 1699993851583,
+      "updatedAt": 1699993851583
+    },
+    {
+      "name": "No aplica",
+      "value": 26,
+      "dictionaryId": 26,
+      "id": 74,
+      "createdAt": 1699993917403,
+      "updatedAt": 1699993917403
+    },
+    {
+      "name": "No",
+      "value": 26,
+      "dictionaryId": 26,
+      "id": 75,
+      "createdAt": 1699993951948,
+      "updatedAt": 1699993951948
+    },
+    {
+      "name": "Sí",
+      "value": 26,
+      "dictionaryId": 26,
+      "id": 76,
+      "createdAt": 1699993961007,
+      "updatedAt": 1699993961007
+    },
+    {
+      "name": "No",
+      "value": 27,
+      "dictionaryId": 27,
+      "id": 77,
+      "createdAt": 1699994097969,
+      "updatedAt": 1699994097969
+    },
+    {
+      "name": "Sí",
+      "value": 27,
+      "dictionaryId": 27,
+      "id": 78,
+      "createdAt": 1699994104324,
+      "updatedAt": 1699994104324
+    },
+    {
+      "name": "No aplica",
+      "value": 28,
+      "dictionaryId": 28,
+      "id": 79,
+      "createdAt": 1699994184117,
+      "updatedAt": 1699994184117
+    },
+    {
+      "name": "No",
+      "value": 28,
+      "dictionaryId": 28,
+      "id": 80,
+      "createdAt": 1699994191934,
+      "updatedAt": 1699994191934
+    },
+    {
+      "name": "Usa otro método",
+      "value": 28,
+      "dictionaryId": 28,
+      "id": 81,
+      "createdAt": 1699994204899,
+      "updatedAt": 1699994204899
+    },
+    {
+      "name": "Sí",
+      "value": 28,
+      "dictionaryId": 28,
+      "id": 82,
+      "createdAt": 1699994216379,
+      "updatedAt": 1699994216379
+    },
+    {
+      "name": "No aplica",
+      "value": 29,
+      "dictionaryId": 29,
+      "id": 83,
+      "createdAt": 1699994529688,
+      "updatedAt": 1699994529688
+    },
+    {
+      "name": "No tiene",
+      "value": 29,
+      "dictionaryId": 29,
+      "id": 84,
+      "createdAt": 1699994537094,
+      "updatedAt": 1699994537094
+    },
+    {
+      "name": "Requiere mantenimiento de Claro",
+      "value": 29,
+      "dictionaryId": 29,
+      "id": 85,
+      "createdAt": 1699994554940,
+      "updatedAt": 1699994554940
+    },
+    {
+      "name": "Requiere mantenimiento de Socio",
+      "value": 29,
+      "dictionaryId": 29,
+      "id": 86,
+      "createdAt": 1699994575933,
+      "updatedAt": 1699994575933
+    },
+    {
+      "name": "Funciona",
+      "value": 29,
+      "dictionaryId": 29,
+      "id": 87,
+      "createdAt": 1699994593747,
+      "updatedAt": 1699994593747
+    },
+    {
+      "name": "No aplica",
+      "value": 30,
+      "dictionaryId": 30,
+      "id": 88,
+      "createdAt": 1699994687008,
+      "updatedAt": 1699994687008
+    },
+    {
+      "name": "No tiene - Claro",
+      "value": 30,
+      "dictionaryId": 30,
+      "id": 89,
+      "createdAt": 1699994698775,
+      "updatedAt": 1699994698775
+    },
+    {
+      "name": "No tiene - Socio",
+      "value": 30,
+      "dictionaryId": 30,
+      "id": 90,
+      "createdAt": 1699994710997,
+      "updatedAt": 1699994710997
+    },
+    {
+      "name": "No funciona - Claro",
+      "value": 30,
+      "dictionaryId": 30,
+      "id": 91,
+      "updatedAt": 1699994910788
+    },
+    {
+      "name": "No tiene - Claro",
+      "value": 30,
+      "dictionaryId": 30,
+      "id": 92,
+      "createdAt": 1699994953190,
+      "updatedAt": 1699994953190
+    },
+    {
+      "name": "Tiene",
+      "value": 30,
+      "dictionaryId": 30,
+      "id": 93,
+      "createdAt": 1699994971431,
+      "updatedAt": 1699994971431
+    },
+    {
+      "name": "No aplica",
+      "value": 31,
+      "dictionaryId": 31,
+      "id": 94,
+      "createdAt": 1699995234742,
+      "updatedAt": 1699995234742
+    },
+    {
+      "name": "No",
+      "value": 31,
+      "dictionaryId": 31,
+      "id": 95,
+      "createdAt": 1699995242723,
+      "updatedAt": 1699995242723
+    },
+    {
+      "name": "Sí",
+      "value": 31,
+      "dictionaryId": 31,
+      "id": 96,
+      "createdAt": 1699995259215,
+      "updatedAt": 1699995259215
+    },
+    {
+      "name": "Requiere mantenimiento de Socio",
+      "value": 31,
+      "dictionaryId": 31,
+      "id": 97,
+      "createdAt": 1699995269583,
+      "updatedAt": 1699995269583
+    },
+    {
+      "name": "Funciona",
+      "value": 31,
+      "dictionaryId": 31,
+      "id": 98,
+      "createdAt": 1699995279623,
+      "updatedAt": 1699995279623
+    },
+    {
+      "name": "No aplica",
+      "value": 32,
+      "dictionaryId": 32,
+      "id": 99,
+      "createdAt": 1700003272789,
+      "updatedAt": 1700003272789
+    },
+    {
+      "name": "No",
+      "value": 32,
+      "dictionaryId": 32,
+      "id": 100,
+      "createdAt": 1700003340965,
+      "updatedAt": 1700003340965
+    },
+    {
+      "name": "Sí",
+      "value": 32,
+      "dictionaryId": 32,
+      "id": 101,
+      "createdAt": 1700003371535,
+      "updatedAt": 1700003371535
+    },
+    {
+      "name": "No aplica",
+      "value": 33,
+      "dictionaryId": 33,
+      "id": 102,
+      "createdAt": 1700003473695,
+      "updatedAt": 1700003473695
+    },
+    {
+      "name": "No tiene",
+      "value": 33,
+      "dictionaryId": 33,
+      "id": 103,
+      "createdAt": 1700003494553,
+      "updatedAt": 1700003494553
+    },
+    {
+      "name": "No tiene en Exhibición",
+      "value": 33,
+      "dictionaryId": 33,
+      "id": 104,
+      "createdAt": 1700003500035,
+      "updatedAt": 1700003500035
+    },
+    {
+      "name": "Sí tiene",
+      "value": 33,
+      "dictionaryId": 33,
+      "id": 105,
+      "createdAt": 1700003510713,
+      "updatedAt": 1700003510713
+    },
+    {
+      "name": "No aplica",
+      "value": 34,
+      "dictionaryId": 34,
+      "id": 106,
+      "createdAt": 1700003567020,
+      "updatedAt": 1700003567020
+    },
+    {
+      "name": "No tiene",
+      "value": 34,
+      "dictionaryId": 34,
+      "id": 107,
+      "createdAt": 1700003575448,
+      "updatedAt": 1700003575448
+    },
+    {
+      "name": "No tiene en Exhibición",
+      "value": 34,
+      "dictionaryId": 34,
+      "id": 108,
+      "createdAt": 1700003597913,
+      "updatedAt": 1700003597913
+    },
+    {
+      "name": "Si tiene",
+      "value": 34,
+      "dictionaryId": 34,
+      "id": 109,
+      "createdAt": 1700003632350,
+      "updatedAt": 1700003632350
+    },
+    {
+      "name": "No aplica",
+      "value": 35,
+      "dictionaryId": 35,
+      "id": 110,
+      "createdAt": 1700003701656,
+      "updatedAt": 1700003701656
+    },
+    {
+      "name": "No tiene",
+      "value": 35,
+      "dictionaryId": 35,
+      "id": 111,
+      "createdAt": 1700003707867,
+      "updatedAt": 1700003707867
+    },
+    {
+      "name": "No tiene en Exhibición",
+      "value": 35,
+      "dictionaryId": 35,
+      "id": 112,
+      "createdAt": 1700003723832,
+      "updatedAt": 1700003723832
+    },
+    {
+      "name": "Sí tiene",
+      "value": 35,
+      "dictionaryId": 35,
+      "id": 113,
+      "createdAt": 1700003737895,
+      "updatedAt": 1700003737895
+    },
+    {
+      "name": "No aplica",
+      "value": 36,
+      "dictionaryId": 36,
+      "id": 114,
+      "createdAt": 1700003947244,
+      "updatedAt": 1700003947244
+    },
+    {
+      "name": "No tiene",
+      "value": 36,
+      "dictionaryId": 36,
+      "id": 115,
+      "createdAt": 1700003960743,
+      "updatedAt": 1700003960743
+    },
+    {
+      "name": "No tiene en Exhibición",
+      "value": 36,
+      "dictionaryId": 36,
+      "id": 116,
+      "createdAt": 1700003969855,
+      "updatedAt": 1700003969855
+    },
+    {
+      "name": "Sí tiene",
+      "value": 36,
+      "dictionaryId": 36,
+      "id": 117,
+      "createdAt": 1700004028373,
+      "updatedAt": 1700004028373
+    },
+    {
+      "name": "No tiene",
+      "value": 37,
+      "dictionaryId": 37,
+      "id": 118,
+      "createdAt": 1700004153926,
+      "updatedAt": 1700004153926
+    },
+    {
+      "name": "Tiene",
+      "value": 37,
+      "dictionaryId": 37,
+      "id": 119,
+      "createdAt": 1700004170651,
+      "updatedAt": 1700004170651
+    },
+    {
+      "name": 1,
+      "value": 38,
+      "dictionaryId": 38,
+      "id": 120,
+      "createdAt": 1700004365969,
+      "updatedAt": 1700004365969
+    },
+    {
+      "name": 2,
+      "value": 38,
+      "dictionaryId": 38,
+      "id": 121,
+      "createdAt": 1700004384095,
+      "updatedAt": 1700004384095
+    },
+    {
+      "name": 3,
+      "value": 38,
+      "dictionaryId": 38,
+      "id": 122,
+      "createdAt": 1700004394818,
+      "updatedAt": 1700004394818
+    },
+    {
+      "name": 4,
+      "value": 38,
+      "dictionaryId": 38,
+      "id": 123,
+      "createdAt": 1700004399787,
+      "updatedAt": 1700004399787
+    },
+    {
+      "name": 5,
+      "value": 38,
+      "dictionaryId": 38,
+      "id": 124,
+      "createdAt": 1700004405581,
+      "updatedAt": 1700004405581
+    },
+    {
+      "name": 6,
+      "value": 38,
+      "dictionaryId": 38,
+      "id": 125,
+      "createdAt": 1700004411531,
+      "updatedAt": 1700004411531
+    },
+    {
+      "name": "Cedula",
+      "value": 40,
+      "dictionaryId": 40,
+      "id": 126,
+      "createdAt": 1700005298311,
+      "updatedAt": 1700005298311
+    },
+    {
+      "name": "Pasaporte",
+      "value": 40,
+      "dictionaryId": 40,
+      "id": 127,
+      "createdAt": 1700005317945,
+      "updatedAt": 1700005317945
+    },
+    {
+      "name": "Empleado no esta uniformado",
+      "value": 41,
+      "dictionaryId": 41,
+      "id": 128,
+      "createdAt": 1700005575498,
+      "updatedAt": 1700005575498
+    },
+    {
+      "name": "Empleado uniformado a medias",
+      "value": 41,
+      "dictionaryId": 41,
+      "id": 129,
+      "createdAt": 1700005590808,
+      "updatedAt": 1700005590808
+    },
+    {
+      "name": "Empleado uniformado adecuadamente",
+      "value": 41,
+      "dictionaryId": 41,
+      "id": 130,
+      "createdAt": 1700005604781,
+      "updatedAt": 1700005604781
+    },
+    {
+      "name": "No modela imagen general correcta",
+      "value": 42,
+      "dictionaryId": 42,
+      "id": 131,
+      "createdAt": 1700005645711,
+      "updatedAt": 1700005645711
+    },
+    {
+      "name": "Imagen general del empleado a medias",
+      "value": 42,
+      "dictionaryId": 42,
+      "id": 132,
+      "createdAt": 1700005656129,
+      "updatedAt": 1700005656129
+    },
+    {
+      "name": "Imagen general del empleado correcta",
+      "value": 42,
+      "dictionaryId": 42,
+      "id": 133,
+      "createdAt": 1700005667206,
+      "updatedAt": 1700005667206
+    },
+    {
+      "name": "No",
+      "value": 43,
+      "dictionaryId": 43,
+      "id": 134,
+      "createdAt": 1700005733547,
+      "updatedAt": 1700005733547
+    },
+    {
+      "name": "Sí",
+      "value": 43,
+      "dictionaryId": 43,
+      "id": 135,
+      "createdAt": 1700005745975,
+      "updatedAt": 1700005745975
+    },
+    {
+      "name": "No posee salario alguno",
+      "value": 44,
+      "dictionaryId": 44,
+      "id": 136,
+      "createdAt": 1700005847730,
+      "updatedAt": 1700005847730
+    },
+    {
+      "name": "Solo posee salario fijo",
+      "value": 44,
+      "dictionaryId": 44,
+      "id": 137,
+      "createdAt": 1700005856764,
+      "updatedAt": 1700005856764
+    },
+    {
+      "name": "Solo posee salario variable",
+      "value": 44,
+      "dictionaryId": 44,
+      "id": 138,
+      "createdAt": 1700005870972,
+      "updatedAt": 1700005870972
+    },
+    {
+      "name": "Posee salario fijo y variable",
+      "value": 44,
+      "dictionaryId": 44,
+      "id": 139,
+      "createdAt": 1700005879582,
+      "updatedAt": 1700005879582
+    },
+    {
+      "name": "No",
+      "value": 45,
+      "dictionaryId": 45,
+      "id": 140,
+      "createdAt": 1700005984566,
+      "updatedAt": 1700005984566
+    },
+    {
+      "name": "Sí",
+      "value": 45,
+      "dictionaryId": 45,
+      "id": 141,
+      "createdAt": 1700005992172,
+      "updatedAt": 1700005992172
+    },
+    {
+      "name": "No",
+      "value": 46,
+      "dictionaryId": 46,
+      "id": 142,
+      "createdAt": 1700006115525,
+      "updatedAt": 1700006115525
+    },
+    {
+      "name": "Sí",
+      "value": 46,
+      "dictionaryId": 46,
+      "id": 143,
+      "createdAt": 1700006119212,
+      "updatedAt": 1700006119212
+    },
+    {
+      "name": "Si conoce Ofertas",
+      "value": 47,
+      "dictionaryId": 47,
+      "id": 144,
+      "createdAt": 1700006211414,
+      "updatedAt": 1700006211414
+    },
+    {
+      "name": "No conoce ofertas, requiere reforzamiento en producto",
+      "value": 47,
+      "dictionaryId": 47,
+      "id": 145,
+      "createdAt": 1700006223376,
+      "updatedAt": 1700006223376
+    },
+    {
+      "name": "No conoce ofertas, no entrenado en producto",
+      "value": 47,
+      "dictionaryId": 47,
+      "id": 146,
+      "createdAt": 1700006234825,
+      "updatedAt": 1700006234825
+    },
+    {
+      "name": "No entrenado",
+      "value": 48,
+      "dictionaryId": 48,
+      "id": 147,
+      "createdAt": 1700006411818,
+      "updatedAt": 1700006411818
+    },
+    {
+      "name": "Entenamiento completado pero requiere reforzamiento",
+      "value": 48,
+      "dictionaryId": 48,
+      "id": 148,
+      "createdAt": 1700006428030,
+      "updatedAt": 1700006428030
+    },
+    {
+      "name": "Sí",
+      "value": 48,
+      "dictionaryId": 48,
+      "id": 149,
+      "createdAt": 1700006437279,
+      "updatedAt": 1700006437279
+    },
+    {
+      "name": "Cierre",
+      "value": 49,
+      "dictionaryId": 49,
+      "id": 150,
+      "createdAt": 1700006522616,
+      "updatedAt": 1700006522616
+    },
+    {
+      "name": "Translado",
+      "value": 49,
+      "dictionaryId": 49,
+      "id": 151,
+      "createdAt": 1700006530897,
+      "updatedAt": 1700006530897
+    },
+    {
+      "name": "Permanencia",
+      "value": 49,
+      "dictionaryId": 49,
+      "id": 152,
+      "createdAt": 1700006540950,
+      "updatedAt": 1700006540950
+    }
+  ],
+  "validations": [
+    {
+      "id": 1,
+      "name": "Cedula",
+      "message": "La cedula no es valida",
+      "value": "http://localhost:3000/Cedula?cedula={0}",
+      "type": 0
+    },
+    {
+      "id": 2,
+      "name": "CedulaDb",
+      "message": "La cedula no es valida",
+      "value": "SELECT CASE WHEN EXISTS (SELECT 1 FROM person WHERE IdNumber = '{0}') THEN 1 ELSE 0 END AS valid",
+      "type": 1
+    },
+    {
+      "name": "Solo letras",
+      "message": "Solo se permiten letras, espacios y puntos",
+      "type": 2,
+      "value": "^[a-zA-Z\\s\\.]+$",
+      "createdAt": 1698688564927,
+      "updatedAt": 1698688564927,
+      "id": 3
+    }
+  ],
+  "database": [
+    {
+      "id": 1,
+      "name": "DB1",
+      "connectionString": "server=localhost; database=Claro_SGA; Trusted_Connection=true; TrustServerCertificate=True",
+      "updatedAt": 1697032071747
+    },
+    {
+      "id": 2,
+      "name": "DB2",
+      "connectionString": "URL_de_conexión_2"
+    },
+    {
+      "id": 3,
+      "name": "DB3",
+      "connectionString": "URL_de_conexión_3"
+    },
+    {
+      "id": 4,
+      "name": "NuevaDB",
+      "connectionstring": "URL_conexion_string",
+      "createdAt": 1696993437570,
+      "updatedAt": 1696993437570
+    }
+  ],
+  "query": [
+    {
+      "id": 1,
+      "databaseId": 1,
+      "name": "Consulta 1",
+      "query": "SELECT * FROM tabla"
+    },
+    {
+      "id": 2,
+      "databaseId": 1,
+      "name": "Consulta 2",
+      "query": "SELECT columna1, columna2 FROM tabla WHERE condición"
+    },
+    {
+      "id": 3,
+      "databaseId": 2,
+      "name": "Consulta 3",
+      "query": "SELECT * FROM otra_tabla"
+    },
+    {
+      "id": 4,
+      "databaseId": 1,
+      "name": "Consulta Nueva",
+      "query": "SELECT * FROM tabla_test",
+      "createdAt": 1696994499365,
+      "updatedAt": 1696994499366
+    },
+    {
+      "query": {
+        "databaseId": "1",
+        "name": "Querytest",
+        "query": "Select Titles FROM Comments"
+      },
+      "createdAt": 1697045862985,
+      "updatedAt": 1697045862985,
+      "id": 5
+    },
+    {
+      "query": {
+        "databaseId": "1",
+        "name": "Query2",
+        "query": "SELECT Id, Title, Body, Created, CreatedBy, IsDeleted, DeletedToken, Updated, UpdatedBy, ConcurrencyToken FROM Comments WHERE Id = {0} AND Title = {1} AND Body = {2} AND Created = {3} AND CreatedBy = {4} AND IsDeleted = {5} AND DeletedToken = {6} AND Updated = {7} AND UpdatedBy = {8} AND ConcurrencyToken = {9} "
+      },
+      "createdAt": 1697050070821,
+      "updatedAt": 1697050070821,
+      "id": 6
+    },
+    {
+      "query": {
+        "databaseId": 1,
+        "name": "prueba test",
+        "query": "SELECT Id, name, Lastname, IdNumber, BirthDate FROM person"
+      },
+      "createdAt": 1697051469235,
+      "updatedAt": 1697051469235,
+      "id": 7
+    }
+  ],
+  "points": [
+    {
+      "id": 1,
+      "code": "px1",
+      "agent": "Marcos Placencio",
+      "agentCode": "TFMP001",
+      "municipalityId": 101,
+      "observations": "Observaciones",
+      "actualAddress": "Calle 3",
+      "storeName": "Tienda 1",
+      "storeType": "Tienda",
+      "date": "11/15/2023",
+      "storeClass": "A"
+    }
+  ],
+  "empleados":[
+    {
+      "id": 1,
+      "tarjeta":"123",
+      "tarjetizado": "true",
+      "fullName":"Juan perez",
+      "tipoDocumento": 1,
+      "numeroDocumento":"123456789",
+      "posicion": "Vendedor"
     }
   ]
 }
